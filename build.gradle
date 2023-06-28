@@ -42,6 +42,9 @@ repositories {
     maven {
         url "http://dvs1.progwml6.com/files/maven" // JEI
     }
+    maven {
+        url "https://www.cursemaven.com"
+    }
 }
 
 dependencies {
@@ -69,6 +72,10 @@ dependencies {
     // http://www.gradle.org/docs/current/userguide/dependency_management.html
 
     deobfCompile 'CraftTweaker2:CraftTweaker2-MC1120-Main:1.12-4.1.17.536'
+
+    deobfCompile "curse.maven:athenaeum-284350:${athenaeum_file}"
+    deobfCompile "curse.maven:dropt-284973:${dropt_file}"
+    deobfCompile "curse.maven:pyrotech-306676:${pyrotech_file}"
 }
 
 processResources {
