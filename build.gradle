@@ -80,6 +80,9 @@ dependencies {
     deobfCompile "curse.maven:athenaeum-284350:${athenaeum_file}"
     deobfCompile "curse.maven:dropt-284973:${dropt_file}"
     deobfCompile "curse.maven:pyrotech-306676:${pyrotech_file}"
+
+    deobfCompile "slimeknights.mantle:Mantle:1.12-${mantle_version}"
+    deobfCompile "knightminer:Inspirations:1.12.2-${inspirations_version}"
 }
 
 processResources {
