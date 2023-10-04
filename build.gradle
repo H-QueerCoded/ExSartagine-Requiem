@@ -93,6 +93,8 @@ dependencies {
 
     deobfCompile "blusunrize:ImmersiveEngineering:0.12-92-559"
     deobfProvided "curse.maven:engineers-decor-313866:3783239"
+
+    deobfProvided "curse.maven:cooking-for-blockheads-231484:2862651"
 }
 
 processResources {

@@ -1,0 +1,26 @@
+{
+    "modid": "exsartagine",
+    "foods": {
+        "INGREDIENTS": [
+            "dough",
+            "salt",
+            "yeast",
+            "curd",
+            "flour",
+            "pizza_dough",
+            "bread_dough",
+            "dry_noodles",
+            "spaghetti_raw",
+            "noodles_meat",
+            "noodles_chicken",
+            "noodles_fish",
+            "noodles_veggie"
+        ]
+    },
+    "tiles": {
+		"kitchenConnectors" : [
+			"subaraki.exsartagine.tileentity.TileEntityRange",
+			"subaraki.exsartagine.tileentity.TileEntityRangeExtension"
+		]
+    }
+}

@@ -16,5 +16,6 @@ public class Integration {
         if(Loader.isModLoaded("campfire")){Campfire.addPlaceables();}
         if(Loader.isModLoaded("immersiveengineering")){ImmersiveEngineering.registerHeatableAdapters();}
         if(Loader.isModLoaded("engineersdecor")){EngineersDecor.addPlaceables();}
+        if(Loader.isModLoaded("cookingforblockheads")) {CookingForBlockheads.readJSON();}
     }
 }
